@@ -1,0 +1,9 @@
+# notes:
+# requires taplo binary
+# cargo install taplo
+
+[formatting]
+align_entries     = true
+array_auto_expand = false
+indent_string     = "    "
+reorder_keys      = true

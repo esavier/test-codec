@@ -1,0 +1,11 @@
+[package]
+name = "rw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "*" }
+async-trait ={ version = "*" }
+tokio ={ version = "1.39", features = [ "full" ] }
+tokio-stream = { version = "0.1" }
+tokio-util = "0.7.11"
